@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Oregano);
+
+
+body{
+  font-family: 'Oregano',sans-serif;
+  font-size: 20px;
+  margin: 0;
+  background-color: #f2d9e6;
+
+}
+
+#headerWrapper {
+position:fixed;
+margin-left: 0px;
+width: 100%;
+height: 50px;
+z-index: 1000;
+font-family: 'Indie flower';
+font-style: normal;
+background: #CCC;
+}
+
+.photo{
+  background-color: #EDE7F6;
+}
+
+h6{
+    float: left;
+    width: 60%;
+    color: red;
+  font-size: 25px;
+}
+
+h3{
+  margin-top: 100px;
+  padding-bottom: 10px;
+}
+
+.grid_4{
+  padding-bottom: 10px;
+}
+
+h2{
+  font-size: 15px;
+  margin-top: -10px;
+}
+
+article{
+  font-size: 23px;
+}
+
+footer{
+  margin-top: -20px;
+  width: 100%;
+  background-color: #CCC;
+}
+
+.hero img{
+  float: left;
+  padding-right: 10px;
+  width: 25%;
+  height: 25%;
+}
+
+.photo img{
+  width: 5%;
+  height: 5%;
+}
+
+#footaddr{
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+#float-right{
+  float: right;
+}
+
+article1{
+  float: right;
+  width: 450px;
+}
+
+ul a{
+  text-decoration: none;
+  color: #666;
+  font-size: 20px;
+}
+
+ul a:hover{
+  text-decoration:underline;
+}
+
+li{
+ display:inline;
+ padding-right: 5px;
+ margin-right: 0px;;
+}

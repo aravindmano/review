@@ -1,0 +1,143 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Oregano);
+
+body{
+  font-family: 'Oregano',sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+#headerWrapper {
+position:fixed;
+margin-left: 0px;
+width: 100%;
+height: 50px;
+z-index: 1000;
+font-family: 'Indie flower';
+font-style: normal;
+background: #CCC;
+opacity: 0.9;
+}
+
+.coll div{
+  color: yellow;
+  font-size: 50px;
+  text-align: center;
+}
+
+.coll{
+  background: url('collage.jpg');
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.main{
+  margin-top: 30px;
+}
+
+.first img{
+  margin-top: 20px;
+  width:80%;
+  height:22%;
+}
+
+.second img{
+  margin-top: 20px;
+  width:70%;
+  height:22%;
+}
+
+.third img{
+  margin-top: 20px;
+  width:80%;
+  height:22%;
+}
+
+h1{
+  float: left;
+  width: 60%;
+  color: red;
+}
+
+footer{
+  width: 100%;
+  background-color: #CCC;
+}
+
+h2 {
+   position: absolute;
+   top: 1600px;
+   left: 0;
+   width: 50%;
+   color: white;
+   font-family: sans-serif;
+   text-transform: uppercase;
+
+}
+
+ li{
+  display:inline;
+  padding-right: 5px;
+  margin-right:  0px;
+
+}
+
+blockquote{
+  margin-left: 50px;
+}
+
+q{
+  position:absolute;
+  left:900;
+  top: 60;
+}
+
+#top {
+    top: 0;
+    max-width: 50%;
+    background-color: orange;
+}
+
+#bottom {
+    bottom: 0;
+    max-width: 50%
+    background-color: green;
+}
+
+#footaddr{
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+.hero img{
+  width:100%;
+  height:100%;
+}
+aside img{
+  display: block;
+  width: 102%;
+  height: 31%;
+}
+
+.super img{
+  margin-left: -9px;
+  width:106%;
+  height:102%;
+}
+
+#float-right{
+  float: right;
+}
+
+ul a{
+  text-decoration: none;
+  color: #666;
+  font-size: 20px;
+}
+
+ul a:hover{
+  text-decoration:underline;
+}
